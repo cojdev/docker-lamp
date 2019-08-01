@@ -5,7 +5,7 @@ services:
     build:
       context: ./docker/php-apache
     ports:
-      - 1090:80
+      - 1080:80
     volumes:
       - .:/var/www/html
     links:
